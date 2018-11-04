@@ -1,0 +1,7 @@
+# IntelliJ related files
+.idea/**
+
+# CMake stuff
+cmake-build-debug/**
+
+
