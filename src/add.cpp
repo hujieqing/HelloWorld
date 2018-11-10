@@ -22,3 +22,4 @@ void listSizes() {
     std::cout << "double:\t\t" << sizeof(double) << " bytes" << std::endl;
     std::cout << "long double:\t" << sizeof(long double) << " bytes" << std::endl;
 }
+
