@@ -1,6 +1,12 @@
 cmake_minimum_required(VERSION 3.12)
-project(helloWorld)
+project(HelloWorld)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 14)
+
 include_directories(includes)
-add_executable(helloWorld src/main.cpp src/add.cpp)
+
+add_executable(HelloWorld
+        includes/add.h
+        src/add.cpp
+        src/main.cpp
+        CMakeLists.txt)
